@@ -1,19 +1,27 @@
-# Rusty Store Inventory Management System
+# Rust Store Inventory Management System
 
-A simple inventory management system built in Rust for small retail stores. This system allows store managers to manage products, record sales and purchases, and generate reports to keep track of inventory and finances.
+A small inventory management system written in Rust for learning purposes. It covers products, sales, purchases, reports and basic authentication.
 
-## Features
+> This project is educational and is not suitable for production use or real financial data.
 
-- **Inventory Management**: Add, edit, delete, and view products in the store’s inventory.
-- **Sales Management**: Record sales transactions, including product sold, quantity, sale price, and calculate total sales and profit.
-- **Purchase Management**: Record purchase transactions, including product purchased, quantity, and purchase price, and calculate total cost.
-- **Reports**: Generate reports showing the store's inventory, sales, and purchases.
-- **Authentication**: Basic password authentication for store managers to prevent unauthorized access.
-- **Error Handling**: Handles invalid inputs, out-of-stock items, and other possible errors.
+## Project layout
 
-## Installation
+- `main/` — application entry point
+- `model/` — product and transaction models
+- `managements/` — inventory, sales and purchase operations
+- `reporting/` — reports
+- `auth/` — authentication example
 
-### Prerequisites
+## Requirements
 
-Make sure you have Rust installed on your machine. You can install it from the official website: https://www.rust-lang.org/
+Install Rust from [rust-lang.org](https://www.rust-lang.org/).
 
+The repository currently uses a module-oriented layout without a `Cargo.toml`. Adding a Cargo manifest is the next recommended improvement; after that the intended command will be:
+
+```bash
+cargo run
+```
+
+## Status
+
+Learning and portfolio project.
